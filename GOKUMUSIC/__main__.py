@@ -42,7 +42,7 @@ async def init():
     # Start bot components
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("GOKUMUSIC.plugins." + all_module)
+        importlib.import_module("GOKUMUSIC.plugins" + all_module)
     LOGGER("GOKUMUSIC.plugins").info("All Features Loaded Successfully!")
 
     await userbot.start()
