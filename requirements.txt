@@ -29,7 +29,7 @@ qrcode
 pytz
 future==0.18.3
 search_engine_parser
-py-tgcalls==0.9.7
+py-tgcalls==2.0.6
 pykeyboard
 pyshorteners
 pyrogram
@@ -86,7 +86,7 @@ pillow==9.5.0
 
 psutil
 
-py-tgcalls==0.9.7
+py-tgcalls==2.0.6
 
 pykeyboard
 
